@@ -51,9 +51,18 @@ Use the following commands
 
 ```
 git clone https://github.com/jordaoqualho/ready2go-react-template.git
+```
+
+```
 cd ready2go-react-template
-npm install / yarn install
-npm start / yarn start
+```
+
+```
+npm install
+```
+
+```
+npm start
 ```
 
 </br><br>
