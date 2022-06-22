@@ -17,6 +17,10 @@ function App() {
     setTheme(theme.title === "light" ? dark : light);
   };
 
+  useEffect(() => {
+    setTheme(theme.title === "light" ? light : dark);
+  }, []);
+
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>

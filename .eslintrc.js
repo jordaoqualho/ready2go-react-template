@@ -17,6 +17,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     "import/no-anonymous-default-export": "off",
     "react/no-unescaped-entities": "off",
+    "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     quotes: ["error", "double"],
     semi: ["error", "always"],

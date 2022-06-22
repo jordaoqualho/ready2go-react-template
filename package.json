@@ -19,7 +19,8 @@
     "styled-components": "^5.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set REACT_APP_ENVIRONMENT=production&& react-scripts start",
+    "dev": "set REACT_APP_ENVIRONMENT=development&& react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint --fix --ext .js,.jsx ."
   },
